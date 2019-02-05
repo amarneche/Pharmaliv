@@ -1,0 +1,138 @@
+div.col-lg-4.col-md-4{
+  font-size:1em;
+}
+
+input{
+  margin-bottom:10px;
+}
+
+.thumbnail{
+  display:block;
+  margin-bottom:20px;
+  line-height:1.42857143;
+  background-color:#faffff;
+  border:1px solid #eeeeee;
+ 
+  -webkit-transition:border .2s ease-in-out;
+  -o-transition:border .2s ease-in-out;
+  transition:border .2s ease-in-out;
+}
+
+@media (min-width:767px) {
+  p.text-uppercase.text-center.icon{
+    font-size:4em;
+  }
+}
+
+@media (max-width:767px) {
+  p.text-uppercase.text-center.icon{
+    font-size:3em;
+  }
+}
+
+.thumbnail:hover{
+  background-color:#3da40d;
+  color:white;
+}
+
+.navbar-default{
+  background-color:#3da40d;
+  border-color:#e7e7e7;
+}
+
+.thumbnail .caption{
+  color:#555555;
+}
+
+@media (max-width:767px) {
+  h4.text-uppercase.text-center{
+    font-size:14px;
+  }
+}
+
+body{
+  font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.42857143;
+  color:#555555;
+  background-color:#ffffff;
+}
+
+li{
+  color:white;
+}
+
+@media (min-width:767px) {
+  #buttons{
+    padding-left:100px;
+    padding-right:100px;
+  }
+}
+
+
+
+img.productImg{
+  height:125px;
+  padding:5px;
+  width:100%;
+  object-fit:cover;
+  float:left;
+}
+img.ordonnance{
+  padding:5px;
+  width:100%;
+  object-fit:cover;
+  float:left;
+}
+img.productImgAlone{
+  height:250px;
+  padding:5px;
+  width:100%;
+  object-fit:cover;
+  float:left;
+}
+
+div.listOrdonnance{
+  overflow:auto;
+  white-space:nowrap;
+}
+
+div.listOrdonnance img{
+  display:inline-block;
+  height:100px;
+  width:100px;
+  object-fit:cover;
+  padding:5px;
+}
+
+div.listOrdonnance img:hover{
+  background-color:#3da40d;
+  border-radius:10px;
+}
+
+label.custom_file_upload{
+  padding:5px;
+  display:inline-block;
+  cursor:pointer;
+  border:1px solid black;
+  border-radius:5px;
+}
+
+input#fileupload{
+  display:none;
+}
+
+.panel-body{
+  padding:15px;
+}
+
+
+
+img.doctorImg{
+  object-fit:cover;
+  height:200px;
+  width:100%;
+  padding:10px;
+  float:left;
+}
+
